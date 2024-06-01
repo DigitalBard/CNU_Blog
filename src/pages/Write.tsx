@@ -123,6 +123,7 @@ const Write = () => {
     } else {
       createPost({ title, contents, tag });
     }
+
     if (isCreateSuccess || isUpdateSuccess) {
       navigate('/');
     }
